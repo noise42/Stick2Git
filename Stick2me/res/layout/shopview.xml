@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TableLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:background="@drawable/background_title"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    <RelativeLayout
+            android:id="@+id/shopLogo"
+            android:layout_width="match_parent"
+            android:layout_height="30dip"
+            >
+        <ImageView
+                android:layout_height="match_parent"
+                android:layout_width="wrap_content"
+                android:paddingTop="5dip"
+                android:contentDescription="logo"
+                android:src="@drawable/icon"
+                android:layout_alignParentRight="true"/>
+    </RelativeLayout>
+    <LinearLayout
+            android:id="@+id/shopUser"
+            android:layout_width="match_parent"
+            android:layout_height="80dip"
+            >
+        <TextView
+                android:layout_height="25dip"
+                android:layout_width="match_parent"
+                android:text="Utente"/>
+    </LinearLayout>
+
+
+
+    <RelativeLayout
+            android:id="@+id/shopShop"
+            android:layout_width="match_parent"
+            android:layout_height="50dip"
+            android:background="@drawable/background1"
+            >
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:layout_marginTop="10dip"
+                android:textStyle="bold"
+                android:textSize="18dip"
+                android:text="La casa della camicia"
+                android:textColor="#000000"
+                />
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="20dip"
+                android:text="Sticker"/>
+    </RelativeLayout>
+    <RelativeLayout
+            android:id="@+id/shopShop2"
+            android:layout_width="match_parent"
+            android:layout_height="50dip"
+            android:background="@drawable/background1"
+
+            >
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:text="Via del mare, 15"
+                android:textColor="#000000"
+                />
+        <Button
+                android:layout_height="40dip"
+                android:layout_width="150dip"
+                android:text="Check"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"/>
+    </RelativeLayout>
+
+
+
+
+
+    <RelativeLayout
+            android:id="@+id/shopStickers"
+            android:layout_width="match_parent"
+            android:layout_height="70dip"
+            android:padding="10dip"
+            >
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:textColor="#000000"
+                android:text="@string/obtained"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentBottom="true"
+                android:text="45"/>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:textColor="#000000"
+                android:text="@string/nextBonus"/>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+
+                android:text="-5"/>
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+            android:id="@+id/shopPrizes"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dip">
+        <Button
+                android:layout_height="40dip"
+                android:layout_width="200dip"
+                android:text="@string/prizes"
+                android:layout_gravity="center"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+
+            android:id="@+id/shopMarket"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dip">
+        <Button
+                android:layout_height="40dp"
+                android:layout_width="131dp"
+                android:text="@string/market"
+                android:layout_gravity="center_horizontal"
+                />
+
+    </LinearLayout>
+
+
+
+
+</TableLayout>

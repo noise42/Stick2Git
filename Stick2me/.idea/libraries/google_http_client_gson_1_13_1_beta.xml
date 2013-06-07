@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="google-http-client-gson-1.13.1-beta">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libs/google-http-client-gson-1.13.1-beta.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/gson-2.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/guava-jdk5-13.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/kinvey-android-lib-2.3.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/kinvey-java-2.3.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/protobuf-java-2.4.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/urbanairship-lib-2.1.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

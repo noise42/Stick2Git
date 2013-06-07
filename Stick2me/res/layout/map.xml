@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:weightSum="10"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1">
+        <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:textColor="#30000000"
+                android:hint="@string/search"/>
+
+    </LinearLayout>
+    <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="9">
+        <Button
+                android:id="@+id/map_toProfile"
+                android:layout_width="100dp"
+                android:layout_height="fill_parent"
+                android:layout_alignParentLeft="true"
+                android:text="@string/app_profile"/>
+        <Button
+                android:id="@+id/map_toHome"
+                android:layout_width="100dp"
+                android:layout_height="fill_parent"
+                android:layout_centerHorizontal="true"
+                android:text="@string/mapBack"/>
+        <Button
+                android:id="@+id/map_toShop"
+                android:layout_width="100dp"
+                android:layout_height="fill_parent"
+                android:layout_alignParentRight="true"
+                android:text="@string/app_shop"/>
+    </RelativeLayout>
+</LinearLayout>

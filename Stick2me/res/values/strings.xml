@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Stick2me</string>
+    <string name="app_menu">Menu</string>
+    <string name="app_shop">Negozi</string>
+    <string name="app_profile">Profilo</string>
+    <string name="app_map">Mappa</string>
+    <string name="mapBack">Home</string>
+    <string name="search">Ricerca...</string>
+    <string name="obtained">Stickers ottenuti</string>
+    <string name="nextBonus">Al prossimo bonus</string>
+    <string name="prizes">Lista Premi</string>
+    <string name="market">Ricerca Punti</string>
+
+
+
+</resources>
